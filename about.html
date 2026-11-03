@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>About</title>
+
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="about.css">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">
+    Skip to main content
+  </a>
+
+  <header>
+    <div class="container nav-row">
+      <a class="brand" href="index.html">
+        Personal Portfolio Resume Website
+      </a>
+
+      <nav id="navigation"
+           class="nav-links"
+           aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html"
+           aria-current="page">About</a>
+        <a href="skill.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeButton"
+                type="button"
+                aria-pressed="false">
+          Dark mode
+        </button>
+
+        <button id="menuButton"
+                type="button"
+                aria-controls="navigation"
+                aria-expanded="false">
+          Menu
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="about" class="container">
+
+     
+      <div class="profile-intro">
+        <p class="profile-code">// GET TO KNOW ME</p>
+        <h1>About Me</h1>
+
+        <p class="profile-lead">
+          Hi, I’m Jian Hao,  FCSIT student
+          exploring technology, developing new skills,
+          and learning through practical projects.
+        </p>
+      </div>
+
+      <div class="profile-layout">
+
+        
+        <article class="profile-panel"
+                 aria-labelledby="resumeTitle">
+
+          <div class="profile-resume-header">
+            <p class="profile-code">// RESUME</p>
+            <h2 id="resumeTitle">Jian Hao</h2>
+            <p>FCSIT Student</p>
+          </div>
+
+          <section class="profile-block"
+                   aria-labelledby="detailsTitle">
+            <h3 id="detailsTitle">Personal Details</h3>
+
+            <dl class="profile-facts">
+              <div>
+                <dt>Name</dt>
+                <dd>Jian Hao</dd>
+              </div>
+
+              <div>
+                <dt>University</dt>
+                <dd>Universiti Malaysia Sarawak</dd>
+              </div>
+
+              <div>
+                <dt>Faculty</dt>
+                <dd>
+                  Computer Science and Information Technology 
+                </dd>
+              </div>
+            </dl>
+          </section>
+
+          <section class="profile-block"
+                   aria-labelledby="educationTitle">
+            <h3 id="educationTitle">Education</h3>
+
+            <div class="profile-education">
+              <h4>Universiti Malaysia Sarawak</h4>
+              <p>
+                Faculty of Computer Science and
+                Information Technology (Networking)
+              </p>
+              <span>Currently Studying</span>
+            </div>
+          </section>
+
+          <section class="profile-block"
+                   aria-labelledby="technicalTitle">
+            <h3 id="technicalTitle">Technical Skills</h3>
+
+            <ul class="profile-skills">
+              <li>HTML</li>
+              <li>Python</li>
+              <li>C++</li>
+              <li>Linux</li>
+              <li>Java</li>
+            </ul>
+          </section>
+
+          <section class="profile-block"
+                   aria-labelledby="languagesTitle">
+            <h3 id="languagesTitle">Languages</h3>
+
+            <ul class="profile-interests">
+              <li>Bahasa Melayu</li>
+              <li>Mandarin</li>
+              <li>English</li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="profile-panel profile-story"
+                 aria-labelledby="storyTitle">
+          <p class="profile-code">// MY STORY</p>
+          <h2 id="storyTitle">A Little About Me</h2>
+
+          <p>
+            I am a student at Universiti Malaysia Sarawak,
+            in the Faculty of Computer Science and
+            Information Technology.
+          </p>
+
+          <p>
+            Through coursework and practical projects,
+            I am building my understanding of programming,
+            computer systems, and problem-solving.
+          </p>
+
+<p>
+  My coursework has included a PHP and SQL wellness
+  centre website, a C++ project submission tracker,
+  and interface mockups for EV dashboards and smart homes.
+</p>
+
+          <div class="profile-story-section">
+            <span class="profile-number">01</span>
+            <h3>What I Enjoy</h3>
+
+            <p>
+              I enjoy exploring how technology works and
+              experimenting with different ways to create
+              useful applications and interactive websites.
+            </p>
+          </div>
+
+          <div class="profile-story-section">
+            <span class="profile-number">02</span>
+            <h3>How I Learn</h3>
+
+            <p>
+              I learn by practising, testing ideas, and
+              improving my work through feedback.
+              Each project gives me an opportunity
+              to develop new skills.
+            </p>
+          </div>
+
+          <div class="profile-story-section">
+            <span class="profile-number">03</span>
+            <h3>My Goal</h3>
+
+            <p>
+              My goal is to strengthen my technical skills,
+              gain practical experience, and become more
+              confident in developing useful solutions.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © Personal Portfolio · Built with HTML, CSS and JavaScript
+  </footer>
+
+  <button id="topButton" type="button" hidden>
+    Back to top ↑
+  </button>
+</body>
+</html>
