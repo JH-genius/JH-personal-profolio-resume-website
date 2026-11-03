@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Jian Hao's personal portfolio, skills and projects.">
+
+  <title>Personal Portfolio Resume Website | Home</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">
+    Skip to main content
+  </a>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container nav-row">
+      <a class="brand" href="index.html">
+        Personal Portfolio Resume Website
+      </a>
+
+      <nav id="navigation"
+           class="nav-links"
+           aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html#about">About</a>
+        <a href="skill.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeButton"
+                type="button"
+                aria-pressed="false">
+          Dark mode
+        </button>
+
+        <button id="menuButton"
+                type="button"
+                aria-controls="navigation"
+                aria-expanded="false">
+          Menu
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="home-cover">
+
+      
+      <div class="cover-heading">
+        <h1 class="cover-title">Personal<br>Portfolio</h1>
+        <span class="cover-year">2026</span>
+      </div>
+
+
+      <div class="cover-face" aria-hidden="true">
+        <img src="ai-face.png" alt="">
+
+        <img class="face-echo face-echo-blue"
+             src="ai-face.png"
+             alt="">
+
+        <img class="face-echo face-echo-purple"
+             src="ai-face.png"
+             alt="">
+
+        <span class="face-scan"></span>
+      </div>
+
+      
+      <div class="cover-info">
+        <span class="home-role">
+          // FCSIT STUDENT · UNIMAS
+        </span>
+
+        <h2>
+          <span class="name-glitch" data-text="Jian Hao">
+            Jian Hao
+          </span>
+        </h2>
+
+        <p>
+          Faculty of Computer Science and
+          Information Technology
+        </p>
+
+        <div class="home-description">
+          Exploring programming, interface design, and
+          database applications through hands-on projects.
+        </div>
+
+        <div class="home-actions">
+          <a class="home-action home-action-primary"
+             href="projects.html">
+            View My Projects ↗
+          </a>
+
+          <a class="home-action"
+             href="about.html#about">
+            About Me →
+          </a>
+        </div>
+      </div>
+
+      <span class="cover-label">
+        // STUDENT PORTFOLIO
+      </span>
+
+    </section>
+  </main>
+
+  <footer>
+    © Personal Portfolio Resume Website · Built with HTML,
+    CSS and JavaScript
+  </footer>
+</body>
+</html>
